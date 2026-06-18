@@ -1,7 +1,7 @@
 /* GENERAL */
 
 body{
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family:'Segoe UI', Arial, sans-serif;
     background:#f8fafc;
     color:#1e293b;
     scroll-behavior:smooth;
@@ -11,9 +11,47 @@ body{
 /* NAVBAR */
 
 .navbar{
+
+    height:75px;
     background:linear-gradient(90deg,#0f172a,#4f46e5);
     padding:15px;
+
 }
+
+
+.navbar-brand{
+
+    font-size:22px;
+    color:white !important;
+
+}
+
+
+.navbar-nav{
+
+    align-items:center;
+    gap:15px;
+
+}
+
+
+.nav-link{
+
+    color:white !important;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+
+.nav-link:hover{
+
+    color:#c4b5fd !important;
+
+}
+
+
+
 
 
 /* HERO */
@@ -23,9 +61,10 @@ body{
     min-height:100vh;
     display:flex;
     align-items:center;
-    padding-top:80px;
+    padding-top:100px;
 
 }
+
 
 
 .hero h1{
@@ -53,12 +92,14 @@ body{
 
 
 
+
+
 /* PHOTO */
 
 .profile{
 
-    width:320px;
-    height:320px;
+    width:280px;
+    height:280px;
     object-fit:cover;
     border-radius:50%;
     border:8px solid white;
@@ -89,6 +130,8 @@ h2{
 
 
 
+
+
 /* CARTES */
 
 .card{
@@ -98,7 +141,7 @@ h2{
     padding:25px;
     height:100%;
     box-shadow:0 10px 25px rgba(0,0,0,0.1);
-    transition:0.3s;
+    transition:.3s;
 
 }
 
@@ -125,6 +168,8 @@ h2{
 
 
 
+
+
 /* FOOTER */
 
 footer{
@@ -139,85 +184,46 @@ footer{
 
 
 
+
 /* MOBILE */
 
 @media(max-width:768px){
 
 
-.hero h1{
+.hero{
 
-font-size:38px;
+    text-align:center;
 
 }
 
 
-    .hero{
-    min-height:100vh;
-    display:flex;
-    align-items:center;
+.hero h1{
+
+    font-size:38px;
+
 }
 
 
 .profile{
-    width:280px;
-    height:280px;
-    object-fit:cover;
-    border-radius:50%;
-}
 
-
-.infos p{
-    margin:8px 0;
-}
-
-
-
-.navbar-nav .nav-link{
-
-    font-weight:500;
-    transition:.3s;
+    width:220px;
+    height:220px;
 
 }
 
-
-.navbar-nav .nav-link:hover{
-
-    color:#a78bfa !important;
-
-}
-
-}
-
-
-/* MENU */
 
 .navbar{
-    height:75px;
-    background:linear-gradient(90deg,#0f172a,#4f46e5);
-}
 
+    height:auto;
 
-.navbar-brand{
-    font-size:22px;
 }
 
 
 .navbar-nav{
-    align-items:center;
-}
 
-
-.nav-link{
-
-    color:white !important;
-    font-weight:500;
-    transition:.3s;
+    text-align:center;
 
 }
 
-
-.nav-link:hover{
-
-    color:#c4b5fd !important;
 
 }

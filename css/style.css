@@ -1,1 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+}
 
+.navbar{
+    background: linear-gradient(90deg,#1e293b,#4f46e5) !important;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4f46e5;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.btn-primary{
+    background:#4f46e5;
+    border:none;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}

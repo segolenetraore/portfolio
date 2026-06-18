@@ -187,3 +187,37 @@ font-size:38px;
 }
 
 }
+
+
+/* MENU */
+
+.navbar{
+    height:75px;
+    background:linear-gradient(90deg,#0f172a,#4f46e5);
+}
+
+
+.navbar-brand{
+    font-size:22px;
+}
+
+
+.navbar-nav{
+    align-items:center;
+}
+
+
+.nav-link{
+
+    color:white !important;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+
+.nav-link:hover{
+
+    color:#c4b5fd !important;
+
+}

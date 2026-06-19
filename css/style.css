@@ -259,3 +259,19 @@ transition:0.4s;
 transform:scale(1.05);
 
 }
+
+.btn{
+border-radius:30px;
+padding:12px 24px;
+font-weight:600;
+}
+
+.btn-success{
+background:#16a34a;
+border:none;
+}
+
+.btn-outline-primary{
+border-width:2px;
+}
+

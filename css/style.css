@@ -193,21 +193,27 @@ footer{
 .hero{
 
     text-align:center;
+    padding-top:120px;
 
 }
 
 
 .hero h1{
 
-    font-size:38px;
+    font-size:32px;
 
 }
 
+.hero p{
+
+    font-size:16px;
+
+}
 
 .profile{
 
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
 
 }
 
@@ -217,14 +223,6 @@ footer{
     height:auto;
 
 }
-
-
-.navbar-nav{
-
-    text-align:center;
-
-}
-
 
 }
 
@@ -239,18 +237,39 @@ footer{
 
 
     .navbar-nav{
-        flex-direction:row !important;
+        flex-direction:row;
     }
+
+}
+
+
+@media(max-width:768px){
+
+.navbar-nav{
+
+    flex-direction:column !important;
+    text-align:center;
+
+}
+
+
+.nav-link{
+
+    padding:10px;
+
+}
+
 
 }
 
 
 #projets img{
 
-height:220px;
 width:100%;
-object-fit:cover;
-transition:0.4s;
+height:auto;
+object-fit:contain;
+transition:.4s;
+border-radius:15px;
 
 }
 
@@ -283,5 +302,25 @@ border-width:2px;
 
 #stats .card{
     text-align:center;
+}
+
+.action-btn{
+
+    margin:8px;
+    display:inline-block;
+
+}
+
+
+@media(max-width:768px){
+
+.action-btn{
+
+    display:block;
+    width:90%;
+    margin:12px auto;
+
+}
+
 }
 

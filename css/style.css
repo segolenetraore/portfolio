@@ -275,3 +275,13 @@ border:none;
 border-width:2px;
 }
 
+#stats h3{
+    font-size:45px;
+    font-weight:700;
+    color:#4f46e5;
+}
+
+#stats .card{
+    text-align:center;
+}
+

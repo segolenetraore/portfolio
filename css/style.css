@@ -242,12 +242,11 @@ footer{
 
 }
 
-
 @media(max-width:768px){
 
 .navbar-nav{
 
-    flex-direction:column !important;
+    flex-direction:column;
     text-align:center;
 
 }

@@ -243,3 +243,23 @@ footer{
     }
 
 }
+
+
+#projets img{
+
+```
+height:220px;
+width:100%;
+object-fit:cover;
+transition:0.4s;
+```
+
+}
+
+#projets img:hover{
+
+```
+transform:scale(1.05);
+```
+
+}
